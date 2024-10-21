@@ -1,0 +1,136 @@
+body {
+    margin: 5px;
+    padding: 15px;
+    background-color: white;
+}
+
+.header{
+    color:bisque;
+    padding: 15px;
+    margin: 0 auto;
+    border-bottom: 10px solid rgb(253, 148, 11);
+    background-color: chocolate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.lead{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.navbar{
+    margin: 0 auto;
+    height: 50px;
+    background-color: chocolate;
+    align-items: center;
+}
+
+.cajetitacontenedora{
+    padding: 0;
+    margin: 1px auto 0;
+    width: 100%;
+    max-width: 1250px;
+}
+
+ul{
+    padding: 0;
+    margin: 6px;
+    height: 45px;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 15px 20px;
+}
+
+a{
+    color: white;
+    padding: 0 100px;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: orange;
+    border-radius: 20px;
+}
+
+#aparte{
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-stretch: condensed;
+    color:black;
+}
+
+.post-body{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    margin: 20px;
+}
+
+.post-header{
+    text-align: center;
+}
+.imagen{
+    width: max-content;
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tablaContenedor{
+    width: max-content;
+    border: solid 2px rgba(245, 116, 11);
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabla{
+    color:black;
+    font-size: 12px;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgba(100, 63, 17, 0.4);
+}
+
+th{
+    padding: 10px 20px;
+    font-weight: 700px;
+}
+
+td{
+    padding:15px;
+}
+
+.tabla2{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    border: solid 2px rgba(245, 116, 11);
+    float: center;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:chocolate;
+    background-color:whitesmoke;
+}
+
+h4{
+    color:black;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
